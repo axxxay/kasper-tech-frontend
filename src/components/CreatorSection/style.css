@@ -1,0 +1,132 @@
+.creator-section {
+    width: 100%;
+    padding: 0px 6%;
+    display: flex;
+    margin-top: 80px;
+}
+
+.creator-section-content {
+    width: 50%;
+}
+
+.creator-section-title {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.4px;
+    width: 75%;
+}
+
+.creator-section-description {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.creator-section-button {
+    margin-top: 25px;
+    cursor: pointer;
+    display: flex;
+    border: 0px;
+    border-radius: 32px;
+    background: #2B2730;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+}
+
+.creator-features-con {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.creator-feature {
+    width: 50%;
+    margin-bottom: 60px;
+}
+
+.feature-img {
+    width: 125px;
+}
+
+.feature-title {
+    margin-top: 10px;
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+}
+
+.feature-description {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    width: 90%;
+}
+
+@media screen and (max-width: 768px) {
+    .creator-section {
+        flex-direction: column;
+        padding: 0px 4%;
+        margin-top: 35px;
+    }
+    .creator-section-content {
+        width: 100%;
+    }
+    .creator-section-title {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+    .creator-section-button {
+        display: flex;
+        padding: 12px 26px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px; /* 142.857% */
+        margin-top: 20px;
+    }
+    .creator-features-con {
+        width: 100%;
+        margin-top: 35px;
+    }
+    .creator-feature {
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .feature-img {
+        width: 96px;
+    }
+    .feature-description {
+        width: 100%;
+    }
+}
